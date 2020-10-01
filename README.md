@@ -1,2 +1,2 @@
 # Netflix Interface Clone
- HTML, CSS, Bootstrap4
+ Clone de Interface da Netflix Responsiva, usando HTML5, CSS, Bootstrap4.
