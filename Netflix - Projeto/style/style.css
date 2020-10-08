@@ -19,6 +19,13 @@ header{
 section{
     border-bottom:8px solid #222;
 }
+h1.frprincipal{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    margin-top:120px;
+    text-white text-center font-weight-bold m-0 col-md-9 mt-md-4
+}
 .logo{
     max-height: 36px;
 }
@@ -35,6 +42,17 @@ section{
     font-size: 1rem;
     border-radius:3px;
     color:#fff;
+}
+.btn-login2{
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius:3px;
+    border-color:#e50914;
+    color:#fff;
+    cursor:pointer;
 }
 @media(max-width:548px){
     .btn-login{
@@ -86,12 +104,13 @@ section{
     background-image: -o-linear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
     background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
 }
-.form-control{
+.formcontrol{
+    width: 300px;
     height:60px;
 }
 
 @media(max-width:548px){
-    .form-control{
+    .formcontrol{
         height:50px;
         flex:none !important;
     }
@@ -126,4 +145,7 @@ section{
         width:rem;
         height:1.2rem;
     }
+}
+h3.pt-baixo{
+    color:black;
 }
